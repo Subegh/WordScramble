@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #85B7B6;
+}
+
+.container {
+    width: 450px;
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+}
+
+.container h2 {
+    font-size: 25px;
+    font-weight: 500;
+    padding: 18px 25px; /* Fixed */
+    border-bottom: 1px solid #ccc;
+}
+
+.container .content {
+    margin: 25px 20px 35px;
+}
+
+.content .word {
+    font-size: 19px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 20px; /* Adjusted */
+    text-transform: uppercase;
+}
+
+.content .details {
+    margin: 25px 0 20px;
+}
+
+.details p {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+
+.details p b {
+    font-weight: 500;
+}
+
+.content input {
+    width: 100%;
+    height: 60px;
+    outline: none;
+    font-size: 18px;
+    padding: 0 16px;
+    border-radius: 5px;
+    border: 1px solid #aaa; /* Fixed missing semicolon */
+}
+
+.content .buttons {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.buttons button {
+    border: none;
+    outline: none;
+    width: calc(100% / 2 - 8px);
+    color: #fff;
+    cursor: pointer;
+    padding: 15px 0;
+    font-size: 17px;
+    border-radius: 5px;
+    width: calc(50% - 8px);
+}
+
+.buttons .refresh-word {
+    background: #00100F;
+}
+
+.buttons .check-word {
+    background: #0092A2;
+}
